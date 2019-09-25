@@ -41,18 +41,20 @@ class _MainScreenState extends State<MainScreen> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
+        child: Column          (
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            ListView.builder(
-              itemCount: busData.length,
-              itemBuilder: (BuildContext ctxt, int idx) {
-                return new Text(busData[idx]);
-              }
+            Expanded(
+              child: ListView.builder(
+                itemCount: busData.length,
+                itemBuilder: (BuildContext ctxt, int idx) {
+                  return ListTile(title: Text('${busData[idx]}'));
+                }
+              ),
             ),
             //   ]
             // ),
-            // Text('data len ${busData.length}'),
+            Text('data len ${busData.length}'),
           ] // column widget arr
         ),
       ),

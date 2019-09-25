@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.green,
       ),
-      home: MainScreen(title: '<i info</i>Flutter Demo Page'),
+      home: MainScreen(title: '<i info</i> FlutStory BaLaBuus'),
     );
   }
 }
