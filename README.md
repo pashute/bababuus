@@ -38,3 +38,5 @@ samples, guidance on mobile development, and a full API reference.
 Test driven and storyboarding according to [this (flutter storyboard project on github)](https://pub.dev/packages/storyboard)
 and [this (storyboarding in flutter)](https://proandroiddev.com/storyboarding-widgets-in-flutter-96d79d9a72f0)
 
+# other places to look
+ - https://www.youtube.com/watch?v=SyrmtnYGJyI building a flight app. 

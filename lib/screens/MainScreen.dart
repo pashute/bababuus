@@ -36,13 +36,17 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        // Here we take the value from the MainScreen object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Row(
+          children: <Widget>[
+            Icon(Icons.airport_shuttle),
+            Text(' '),
+            Text(widget.title), // text from MainScreen creation
+          ]
+        ),
       ),
       body: Center(
         child: Column          (
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Expanded(
               child: ListView.builder(
