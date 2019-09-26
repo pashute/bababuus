@@ -1,4 +1,4 @@
-#Mon Sep 23 16:40:48 IDT 2019
+#Thu Sep 26 09:02:20 IDT 2019
 base.0=C\:\\dev\\flutter\\trials\\FlutStories\\flutstories\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
