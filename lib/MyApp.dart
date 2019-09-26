@@ -5,6 +5,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
 
   static const titleText = "FlutStory BalaBuus";
+  static const busData = ['412 to ta','411 to ta','415 to jslm'];  
   
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: MainScreen(title: titleText),
+      home: MainScreen(title: titleText, busData: busData),
     );
   }
 }

@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
+
+import 'package:storyboard/storyboard.dart';
+import 'stories/BusRoutsStory.dart';
+
 import './MyApp.dart';
 
-// import 'package:storyboard/storyboard.dart';
-// import 'stories/MainScreenStory.dart';
+const bool isStory = true;
 
-
-void main() => runApp(MyApp());
-// void main() => runApp(new StoryboardApp([
-//   new MainScreenStory()
-// ])); 
+void main(){
+  if (isStory) 
+    return runApp(new StoryboardApp([
+      new BusRoutsStory()
+    ])); 
+  else
+    return runApp(MyApp());
+}
 
 
 
