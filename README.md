@@ -39,4 +39,4 @@ Test driven and storyboarding according to [this (flutter storyboard project on 
 and [this (storyboarding in flutter)](https://proandroiddev.com/storyboarding-widgets-in-flutter-96d79d9a72f0)
 
 # other places to look
- - https://www.youtube.com/watch?v=SyrmtnYGJyI building a flight app. 
+ - https://www.youtube.com/watch?v=SyrmtnYGJyI building a flight app.
